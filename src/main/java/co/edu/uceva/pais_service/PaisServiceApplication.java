@@ -8,6 +8,7 @@ public class PaisServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PaisServiceApplication.class, args);
+		System.out.println("Hola Colombia normal!");
 	}
 
 }
