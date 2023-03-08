@@ -15,6 +15,6 @@ public class PaisServiceController {
      */
     @GetMapping("/pais/{nombre}")
     public String imprimir(@PathVariable("nombre") String nombre){
-        return "Pais=Colombia";
+        return "Pais=Colombia=" + nombre;
     }
 }
